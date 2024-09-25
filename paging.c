@@ -1,8 +1,5 @@
 /* page_init
- * Inputs: none 
- * Return Value: none
- * Function: sets the base addresses for the file director and page tables, sets the bits in memory based on the Intel documentation 
- * 
+ * This is a snippet from paging.c, which handles initialization of paging for the Linux-like operating system. The full implementation includes additional code for other system components such as device drivers and system calls.
  */
 
 void page_init() {
